@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit</title>
+    <link rel="stylesheet" type="text/css" href="css/jTinder.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+</head>
+</script>
+  <h1 class = "title">
+      Bit
+  </h1>
+    <!-- start padding container -->
+    <div class="wrap">
+      <div id="reddit-content">
+   </div>
+        <!-- start jtinder container -->
+        <div id="tinderslide">
+          <div class = "Context">
+         </div>
+            <ul>
+                <li class="pane24">
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane23">
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+
+                <li class="pane22">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+
+                <li class="pane21">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+
+                <li class="pane20">
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane19">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane18">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane17">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane16">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane15">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane14">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane13">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane12">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane11">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane10">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane9">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane8">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane7">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane6">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane5">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane4">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane3">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <li class="pane2">
+
+                    <div class = "Author">Author</div>
+                    <div class = "Title">Title</div>
+                    <div class = "Date">Date</div>
+                </li>
+                <li class="pane1">
+                  <div class = "Author">Author</div>
+                  <div class = "Title">Title</div>
+                  <div class = "Date">Date</div>
+                </li>
+                <script>
+                  URLs = [];
+
+                    $.getJSON("https://www.reddit.com/r/worldnews.json?jsonp=?", function foo(data) {
+                      $.each(
+                        data.data.children.slice(0, 25),
+                        function(i, post) {
+                          console.log('called');
+                          $('.pane' + (i+1)).html(post.data.title);
+                          URLs[i] = post.data.url;
+                        })
+
+                        console.log(URLs);
+                      //  URLs.shift();
+                        URLs.reverse();
+                        console.log(URLs);
+                    })
+                  </script>
+
+            </ul>
+        </div>
+        <!-- end jtinder container -->
+    </div>
+    <!-- end padding container -->//
+
+    <!-- jTinder trigger by buttons  -->
+
+    <!-- jTinder status text  -->
+    <div id="status"></div>
+
+    <!-- jQuery lib -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- transform2d lib -->
+    <script type="text/javascript" src="js/jquery.transform2d.js"></script>
+    <!-- jTinder lib -->
+    <script type="text/javascript" src="js/jquery.jTinder.js"></script>
+    <!-- jTinder initialization script -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
